@@ -1,0 +1,22 @@
+.sombra{
+    box-shadow: 
+    inset 0 10px 0px 15px #0a0f35aa,
+    inset 0 0 0px 15px #2b3058aa,
+    0 0 40px 10px #00000080;
+    overflow: hidden;
+    padding: 3em;
+   --valor:260px;
+   width: var(--valor);
+   height: var(--valor);
+}
+
+
+.textShadow{
+    text-shadow: 0 0 5px orangered;
+}
+.progress-bar__progress {
+    fill: none;
+    stroke-dasharray: 90 50 100 100;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s ease-in-out;
+  }

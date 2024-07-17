@@ -14,9 +14,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const darkMode = "bg-[#1e2140] text-[#cecfd1]"
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${darkMode}`}>{children}</body>
     </html>
   );
 }
