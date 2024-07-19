@@ -1,3 +1,24 @@
+.clock{
+    display: inline-flex;
+    position: relative;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #0b0d1a;
+    width: 224px;
+    height: 224px;
+}
+.time{
+    position: absolute;
+}
+.clockTime {
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+    font-weight: 600;
+}
+.clockTime_end{
+    color: orangered;
+}
 .sombra{
     box-shadow: 
     inset 0 10px 0px 15px #0a0f35aa,
@@ -16,7 +37,7 @@
 }
 .progress-bar__progress {
     fill: none;
-    stroke-dasharray: 90 50 100 100;
+    stroke-dasharray: 40 40 50 50 40 50 50;
     stroke-linecap: round;
     transition: stroke-dashoffset 1s ease-in-out;
   }
