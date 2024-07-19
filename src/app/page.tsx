@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="text-center py-5">
         <h2 className="text-4xl font-semibold">Pomodoro</h2>
-        <Clock.Display>00:05</Clock.Display>
+        <Clock.Display>25:00</Clock.Display>
         {/* <Config /> */}
       </div>
     </>
