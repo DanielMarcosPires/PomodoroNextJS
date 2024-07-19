@@ -72,7 +72,7 @@ export default function Display({ children }: ComponentProps<"div">) {
               min === "00" && sec === "00" && "clockTime_end textShadow"
             }`}
           >{`${min}:${sec}`}</h1>
-          <Button setActive={setActive} />
+          <Button  setActive={setActive} />
         </div>
       </div>
     </div>
